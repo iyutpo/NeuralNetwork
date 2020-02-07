@@ -22,6 +22,7 @@ w_{jk}^l \text{表示第}(l-1)\text{层的第}k\text{个neuron连接到第}l\tex
 b_j^l \text{表示第}l\text{层的第}j\text{个neuron的bias；} \\
 z_j^l \text{表示第}l\text{层的第}j\text{个neuron的输入，即：}z_l^j=\sum_k {w_{jk}^l a^{l-1}_k+b^l_j} \\
 a_j^l \text{表示第}l\text{层的第}j\text{个neuron的输出，即：}a^j_l=\sigma(\sum_k {w_{jk}^l a^{l-1}_k+b_j^l)} \\
+\text{其中，}\sigma \text{表示Activation Function}
 $$
 
 
