@@ -25,5 +25,23 @@ a_j^l \text{表示第}l\text{层的第}j\text{个neuron的输出，即：}a^j_l=
 \text{其中，}\sigma \text{表示Activation Function}
 $$
 
+有了变量的定义之后，我们还需要定义Loss Function。比较常见的Loss Function是Quadratic Loss Function：
+
+$$
+C = \frac{1}{2n}\sum_x {||y(x) - a^L(x)||^2}
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
